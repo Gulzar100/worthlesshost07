@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worthless Host - Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background: #111;
+            color: #fff;
+        }
+        header {
+    background: #000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    margin-right: 15px; /* Space between logo and text */
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+        header {
+            background: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #111;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .hero {
+            background: url('hero.png') no-repeat center center/cover;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+        .hero h2 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .about, .contact, .content {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .about h2, .content h2, .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: white;
+            border-bottom: 2px solid white;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .about p, .contact p, .content p {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .content div {
+            flex: 1 1 calc(33% - 30px);
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .content div:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+        }
+        .content div img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .content div h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .contact form input, .contact form textarea, .contact form button {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid white;
+            background: #222;
+            color: #fff;
+            border-radius: 4px;
+        }
+        .contact form button {
+            background: white;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .contact form button:hover {
+            background: #fff;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Worthless_Host_Logo.png" alt="Logo" class="logo">
+            <h1>Worthless Host</h1>
+        </div>
+    </header>
+    <header>
+            
+        
+        <p>Gaming | Programming | Innovation</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#content">Content</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <div>
+            <h2>Welcome to Luxury in Creativity</h2>
+            <p>Where Gaming Meets Programming Excellence</p>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Worthless Host, where we merge the excitement of gaming with the power of programming. From thrilling gaming walkthroughs to in-depth coding tutorials, we offer a platform for learning, entertainment, and innovation.</p>
+    </section>
+    <section class="content" id="content">
+        <h2>Our Content</h2>
+        <div>
+            <img src="adventure-gamers-logo.png" alt="Gaming">
+            <h3>Gaming Adventures</h3>
+            <p>Engage in thrilling gameplay and improve your gaming skills.</p>
+        </div>
+        <div>
+            <img src="Cover-2.png" alt="Programming">
+            <h3>Programming Tutorials</h3>
+            <p>Learn everything from basic to advanced programming.</p>
+        </div>
+        <div>
+            <img src="pngtree-3d-illustration-chart-portfolio-png-image_9190979.png" alt="Tech Insights">
+            <h3>Tech Insights</h3>
+            <p>Discover the latest trends and tips in technology.</p>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Have a question or want to collaborate? Let’s connect!</p>
+        <form action="mailto:aligulzar0907@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 Worthless Host | Crafted with Precision</p>
+    </footer>
+</body>
+</html>
